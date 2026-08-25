@@ -13,6 +13,7 @@ To capture movement behavior in both low- and high-density situations, Andrew He
 - Strategic level: Consists of what the agent want to achieve and how they will navigate the space;
 - Tactical level: Consists of reacting to the environment and making tactical decisions regarding navigation in case of blockages;
 - Operational level: Consists of the moment-to-moment step decisions the agent takes, encompassing changes in direction and/or speed at the lowest level.
+
 Critically, M4MAs pedestrians have a particular “personality” reflected in unique parameters that guide the movement on the operational level. These individual differences are implemented in two ways:
 
 - Qualitative differences: Each pedestrian belongs to a particular class of people, defining a particular pedestrian profile that one may encounter within the setting of interest;
