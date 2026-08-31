@@ -302,12 +302,15 @@ plot(trace, iteration = 1)[[1]]
 
 
 # Start the simulation with a particular agent in 
-# the room
+# the room. Note that `status = "plan"` is needed
+# in order for the agent to know where to go at 
+# the start of the simulation.
 my_agent <- agent(
     id = "my agent",
     radius = 0.25,
     center = c(20, 10),
     orientation = 90,
+    status = "plan",
     current_goal = goal(position = c(22, 22))
 )
 
