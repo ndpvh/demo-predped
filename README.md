@@ -35,9 +35,10 @@ For more detailed information on [`predped`](https://github.com/ndpvh/predped), 
 
 ## Getting started
 
-To use this code, one should first install the latest version of [`predped`](https://github.com/ndpvh/predped) via the call:
+To use this code, one should first install the latest versions of [`m4ma`](https://github.com/m4ma/m4ma) and [`predped`](https://github.com/ndpvh/predped) via the calls:
 
 ```
+remotes::install_github("m4ma/m4ma")
 remotes::install_github("ndpvh/predped")
 ```
 
